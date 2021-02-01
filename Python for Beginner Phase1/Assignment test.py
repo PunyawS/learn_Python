@@ -1,14 +1,9 @@
-#assingment 8
+#assingment
 
-i=1
-sum=0
-average = 0
-round = int(input("ples input round :"))
 
-while i<=round:
-    sum+=i
-    i+=1
-
-average = sum/round
-print("sum :", sum)
-print("ave :", average)
+for i in range(11):
+    if i%2 ==0:
+        print("Number Even",i)
+for y in range(11):
+    if y%2 !=0:   
+        print("Number odd",y)
