@@ -1,9 +1,21 @@
 #assingment
 
+last = int(input("input :"))
 
-for i in range(11):
-    if i%2 ==0:
-        print("Number Even",i)
-for y in range(11):
-    if y%2 !=0:   
-        print("Number odd",y)
+#xoxo
+""" for i in range(last):
+    for y in range (last):
+        print("x",end='') if (i+y) %2==0 else print("o",end='')
+    print("") """
+
+#สามเหลี่ยม
+""" for i in range(1,last+1):
+    for y in range(1,i+1):
+        print("x", end='')
+    print("") """
+
+#4เหลี่ยม
+""" for i in range(last):
+    for y in range(last):
+        print("x", end="")
+    print("") """
