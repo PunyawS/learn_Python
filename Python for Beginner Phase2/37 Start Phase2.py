@@ -40,9 +40,9 @@ else:
 
 names=["KKK","AAA","CCC"]
 #Len ร่วมกับ Loop
-""" for i in range(len(names)):
+for i in range(len(names)):
     print(names[i]) 
-for kk in names:
+""" for kk in names:
     print(kk) """
 
 #append, insert

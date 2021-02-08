@@ -1,13 +1,9 @@
-number=[]
-while True:
-    x=int(input("Ples input number :"))
-    if x<0:
-        break
-    number.append(x)
+""" number=[1,2,3,4,5]
 
-number.sort()
-print(number)
+number =[i**2 for i in number]
+print(number) """
 
-number.reverse()
-print(number)
-print("End Process")
+game=["A","B","C"]
+price=[10,20,30]
+for x,y in zip(game,price):
+    print(x,y)
