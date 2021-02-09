@@ -1,9 +1,11 @@
-""" number=[1,2,3,4,5]
+number = int(input("ples input number :"))
 
-number =[i**2 for i in number]
-print(number) """
-
-game=["A","B","C"]
-price=[10,20,30]
-for x,y in zip(game,price):
-    print(x,y)
+for x in range(number):
+    for y in range(number):
+        #print("x",end='') if (x+y)%2==0 else print("o",end='')
+    #print("")
+        if x==0 or y==0 or x==number-1 or y==number-1:
+            print("x",end='')
+        else:
+            print(" ",end='')
+    print(" ")
