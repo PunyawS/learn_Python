@@ -59,4 +59,10 @@ market={
         "zone":"4"
     }
 }
+""" 
+if x in market["Starbuck"]["menu"]:
+    print("Yes")
+else:
+    print("We don't have.")
+ """
 print(market["KFC"]["menu"])
