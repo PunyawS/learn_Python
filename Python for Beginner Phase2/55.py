@@ -1,8 +1,8 @@
 #Assignment 24
 #จงหาเลขคู่เลขคี่
 
-def oddeven(a):
-    if a%2 ==0:
+def oddeven(number):
+    if number%2 ==0:
         print("Even")
     else:
         print("Odd")
