@@ -1,2 +1,2 @@
 #Recursive Function
-ssss
+print("Hello")
