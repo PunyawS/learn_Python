@@ -5,8 +5,8 @@
         return fib(number-1)+fib(number-2)
 
 for i in range(5):
-    print(fib(i))
- """
+    print(fib(i)) """
+
 
 """ def hanoi(n,a,b,c):
     if n==0:
