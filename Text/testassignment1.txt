@@ -1,1 +1,5 @@
-s01	80	A
+Code student ID :s01	Score is :80	Grade :A
+Code student ID :s02	Score is :70	Grade :B
+Code student ID :s03	Score is :60	Grade :C
+Code student ID :s04	Score is :50	Grade :D
+Code student ID :s05	Score is :49	Grade :F

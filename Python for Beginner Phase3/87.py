@@ -1,7 +1,7 @@
 #Assignment โปรแกรมใส่เกรดนักเรียน
 
 try:
-    fw=open("./Text/Assignment.txt","a",encoding="UTF-8")
+    fw=open("./Text/testassignment.txt","a",encoding="UTF-8")
     while True:
         codeid=input("Ples input Code ID :")
         if codeid == "exit":
