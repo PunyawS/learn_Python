@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Test Register</h1>
+    <form align="left">
+        <!-- input -->
+        <div>
+            <label for="fname">Firstname</label>
+            <input type="text" name="fname" placeholder="Fristname" required>
+        </div>
+        <div>
+            <label for="lname">Lastname</label>
+            <input type="text" name="lname" placeholder="Lastname" required>
+        </div>
+        <div>
+            <label for="mail">E-mail</label>
+            <input type="email" name="email" placeholder="1234@gmail.com" required>
+        </div>
+        <div>
+            <label for="Password">Password</label >
+            <input type="password" name="Password" required>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="" cols="20" rows="5" required></textarea>
+        </div>
+        <div>
+            <label for="Date">Date</label>
+            <input type="date" name="Date">
+        </div>
+        <div>
+            <label for="Age">Age</label>
+            <input type="number" name="age" min="0" max="99" value="24">
+        </div>
+        <div>
+            <label for="Tel">Mobile</label>
+            <input type="tel" name="tel" required>
+        </div>
+        <div>
+            <label for="range number">ช่วงตัวเลข</label>
+            <input type="range" name="range number" value="10">
+        </div>
+        <!-- Select -->
+        <div>
+            <label for="Education">Education</label>
+            <select name="Education" id="">
+                <option value="Pleas sclect Education" selected>Pleas sclect Education</option>
+                <option value="High school">High school</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Master">Master</option>
+                <option value="Doctor of Philosophy">Doctor of Philosophy</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">LGBT
+        </div>
+        <div>
+            <label for="Favorite">Favorite</label>
+            <input type="checkbox" name="fav">Game
+            <input type="checkbox" name="fav">Spot
+            <input type="checkbox" name="fav">Coding
+        </div>
+        <div>
+            <label for="file">file</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="file">URL</label>
+            <input type="url">
+        </div>
+        <!-- สร้างปุ่ม -->
+        <div>
+            <button type="reset" value="Reset">reset</button>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+
+
+    <a href="index.html">Home Page</a>
+</body>
+</html>
