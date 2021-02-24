@@ -7,7 +7,7 @@ print(x)    #แสดงค่า Array
 x=x.ndim    #ตรวจสอบว่า Array มีกี่มิติ
 print(x)    #แสดงค่า มิติ Array
 '''
-x=np.array([1,2,3])
-print(x)
-x=x.ndim
-print(x)
+# x=np.array([1,2,3])
+# print(x)
+# x=x.ndim
+# print(x)
