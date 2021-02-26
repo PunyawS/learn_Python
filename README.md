@@ -1,2 +1,2 @@
-# learn_python 1111fdsf
+# learn_python
 # เรียนรู้จากช่อง KongRuksiam Official
