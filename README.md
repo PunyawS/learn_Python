@@ -1,2 +1,2 @@
-# learn_python, HTML5
+# learn_python
 # เรียนรู้จากช่อง KongRuksiam Official
