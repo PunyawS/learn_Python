@@ -19,7 +19,7 @@ def write_to_file(country_name,capital_name): #Function write
         file.close # File Close
 
 #4th Main Function
-#Create Main Function before import tkinter
+#Create Main Function before import tkintera
 root = Tk() #Call variable TK
 root.withdraw() #don't show TK window
 world_capital = {} #Create Dictionart{} to use Read #line12 in script
